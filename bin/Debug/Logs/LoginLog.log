@@ -1,0 +1,263 @@
+26/9/2567 0:23:34 Login Server v.10.10
+26/9/2567 0:23:35 MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateNew()
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Server.Common.Data.Database.Test() in E:\All FlyFF\Ghost-1.1\Server\Common\Data\Database.cs:line 109
+   at Server.LoginServer.ServerLoop() in E:\All FlyFF\Ghost-1.1\Server\LoginServer\LoginServer.cs:line 59
+26/9/2567 0:23:42 Login Server v.10.10
+26/9/2567 0:25:21 Login Fail!
+26/9/2567 0:25:45 Login Fail!
+26/9/2567 0:27:13 Login Fail!
+26/9/2567 12:27:33 Login Server v.10.10
+26/9/2567 12:28:53 Login Fail!
+26/9/2567 12:29:09 Login Fail!
+26/9/2567 12:30:01 Login Fail!
+26/9/2567 12:30:57 Login Fail!
+26/9/2567 12:31:07 Login Fail!
+26/9/2567 12:32:43 Warning: Unregistered Game Wrold01-1.
+26/9/2567 12:36:22 Login Fail!
+26/9/2567 12:36:41 Login Fail!
+26/9/2567 12:37:03 Login Fail!
+26/9/2567 12:37:42 Login Fail!
+26/9/2567 12:38:14 Login Fail!
+26/9/2567 12:39:03 Login Server v.10.10
+26/9/2567 12:49:05 Login Server v.10.10
+26/9/2567 12:50:02 Login Fail!
+26/9/2567 12:50:05 Login Fail!
+26/9/2567 12:50:40 Login Fail!
+26/9/2567 12:50:52 Login Fail!
+26/9/2567 12:57:12 Login Fail!
+26/9/2567 13:04:22 Login Fail!
+26/9/2567 15:00:28 Warning: Unregistered Char Wrold01.
+26/9/2567 15:00:29 Warning: Unregistered Game Wrold01-1.
+27/9/2567 16:27:53 Login Server v.10.10
+27/9/2567 16:28:03 Warning: Unregistered Char Wrold01.
+27/9/2567 16:28:36 Login Fail!
+27/9/2567 16:29:51 Login Server v.10.10
+27/9/2567 16:30:55 Warning: Unregistered Game Wrold01-1.
+27/9/2567 16:31:10 Login Server v.10.10
+27/9/2567 16:44:57 Login Server v.10.10
+27/9/2567 16:45:44 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Accounts.Account.Save() in E:\All FlyFF\Ghost-1.2\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in E:\All FlyFF\Ghost-1.2\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in E:\All FlyFF\Ghost-1.2\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.2\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+27/9/2567 16:47:20 Login Server v.10.10
+27/9/2567 16:47:57 Unhandled Packet Exception from 127.0.0.1: 
+System.MissingFieldException: Field not found: 'Server.Common.Constants.ServerConstants.PASSWORD_DECODE'.
+   at Server.Ghost.LoginHandler.Login_Req(InPacket lea, Client c)
+   at Server.Ghost.Client.Dispatch(InPacket inPacket)
+27/9/2567 16:49:17 Login Server v.10.10
+27/9/2567 16:49:53 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\source\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\source\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Accounts.Account.Save() in C:\source\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in C:\source\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in C:\source\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in C:\source\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+27/9/2567 16:51:59 Login Server v.10.10
+27/9/2567 16:52:28 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\source\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\source\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Accounts.Account.Save() in C:\source\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in C:\source\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in C:\source\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in C:\source\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+27/9/2567 16:58:14 Login Server v.10.10
+27/9/2567 17:06:45 Login Server v.10.10
+27/9/2567 17:09:59 Login Server v.10.10
+28/9/2567 22:36:36 Login Server v.10.10
+28/9/2567 23:30:00 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at Server.Accounts.Account.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+28/9/2567 23:31:00 Login Server v.10.10
+28/9/2567 23:31:21 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Accounts.Account.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+28/9/2567 23:34:17 Login Server v.10.10
+28/9/2567 23:34:57 Unhandled exception from Server: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Accounts.Account.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Accounts\Account.cs:line 74
+   at Server.Ghost.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\Net\Client.cs:line 65
+   at Server.Common.Net.Session.Dispose() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 288
+   at Server.Common.Net.Session.EndReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\Session.cs:line 128
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+28/9/2567 23:37:53 Login Server v.10.10
+28/9/2567 23:40:26 Login Server v.10.10
+28/9/2567 23:43:51 Login Server v.10.10
+28/9/2567 23:43:53 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.LoginServer.ServerLoop() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\LoginServer.cs:line 69
+28/9/2567 23:43:59 Login Server v.10.10
+28/9/2567 23:44:00 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.LoginServer.ServerLoop() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\LoginServer.cs:line 69
+28/9/2567 23:44:05 Login Server v.10.10
+28/9/2567 23:44:06 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.LoginServer.ServerLoop() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\LoginServer\LoginServer.cs:line 69
+28/9/2567 23:44:11 Login Server v.10.10
+29/9/2567 0:11:41 Login Server v.10.10
+8/10/2567 15:44:43 Login Server v.10.10
+8/10/2567 15:52:45 Login Server v.10.10
+8/10/2567 17:19:59 Warning: Unregistered Game Wrold01-1.
+8/10/2567 19:41:17 Login Server v.10.10
+8/10/2567 20:21:58 Warning: Unregistered Game Wrold01-1.
+8/10/2567 23:22:48 Login Server v.10.10
+8/10/2567 23:59:45 Warning: Unregistered Game Wrold01-1.
+10/10/2567 20:31:16 Login Server v.10.10
+10/10/2567 20:56:10 Login Server v.10.10
+10/10/2567 20:57:02 Warning: Unregistered Char Wrold01.
+10/10/2567 21:13:51 Warning: Unregistered Game Wrold01-1.

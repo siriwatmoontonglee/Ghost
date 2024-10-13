@@ -1,0 +1,219 @@
+26/9/2567 0:23:48 Message Server v.10.10
+26/9/2567 12:27:45 Message Server v.10.10
+26/9/2567 12:38:55 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.1\Server\Common\Net\ServerHandler.cs:line 92
+26/9/2567 12:38:55 Warning: Server stopped.
+26/9/2567 12:39:24 Message Server v.10.10
+26/9/2567 12:48:06 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.1\Server\Common\Net\ServerHandler.cs:line 92
+26/9/2567 12:48:06 Warning: Server stopped.
+26/9/2567 12:49:27 Message Server v.10.10
+27/9/2567 16:28:02 Message Server v.10.10
+27/9/2567 16:28:10 Message Server v.10.10
+27/9/2567 16:30:13 Message Server v.10.10
+27/9/2567 16:31:23 Message Server v.10.10
+27/9/2567 16:45:11 Message Server v.10.10
+27/9/2567 16:45:53 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.2\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:45:53 Warning: Server stopped.
+27/9/2567 16:46:08 Message Server v.10.10
+27/9/2567 16:46:10 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:46:14 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:46:18 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:46:22 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:47:31 Message Server v.10.10
+27/9/2567 16:48:37 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.2\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:49:26 Message Server v.10.10
+27/9/2567 16:50:01 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\source\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:50:01 Warning: Server stopped.
+27/9/2567 16:50:16 Message Server v.10.10
+27/9/2567 16:50:18 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:22 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:26 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:30 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:34 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:34 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\source\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\source\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\source\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+27/9/2567 16:50:34 Warning: Server stopped.
+27/9/2567 16:50:50 Message Server v.10.10
+27/9/2567 16:50:52 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:50:57 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:51:01 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:51:05 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:51:09 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:51:09 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\source\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\source\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\source\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+27/9/2567 16:51:09 Warning: Server stopped.
+27/9/2567 16:51:24 Message Server v.10.10
+27/9/2567 16:51:26 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:51:30 Warning: Could not connect to login server at 127.0.0.1:14000.
+27/9/2567 16:52:05 Message Server v.10.10
+27/9/2567 16:52:36 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\source\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:52:36 Warning: Server stopped.
+27/9/2567 16:58:31 Message Server v.10.10
+27/9/2567 17:07:02 Message Server v.10.10
+27/9/2567 17:10:13 Message Server v.10.10
+28/9/2567 22:37:00 Message Server v.10.10
+28/9/2567 23:30:09 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:30:09 Warning: Server stopped.
+28/9/2567 23:30:24 Message Server v.10.10
+28/9/2567 23:30:26 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:30:30 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:30:34 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:30:38 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:30:42 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:30:42 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:30:42 Warning: Server stopped.
+28/9/2567 23:30:57 Message Server v.10.10
+28/9/2567 23:30:59 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:31:25 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:31:25 Warning: Server stopped.
+28/9/2567 23:31:40 Message Server v.10.10
+28/9/2567 23:31:42 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:31:46 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:31:50 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:31:54 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:34:30 Message Server v.10.10
+28/9/2567 23:35:02 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:35:02 Warning: Server stopped.
+28/9/2567 23:35:17 Message Server v.10.10
+28/9/2567 23:35:19 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:23 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:27 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:31 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:35 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:35 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:35:35 Warning: Server stopped.
+28/9/2567 23:35:50 Message Server v.10.10
+28/9/2567 23:35:52 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:35:57 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:01 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:05 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:09 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:09 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:36:09 Warning: Server stopped.
+28/9/2567 23:36:24 Message Server v.10.10
+28/9/2567 23:36:26 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:30 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:34 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:38 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:42 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:36:42 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:36:42 Warning: Server stopped.
+28/9/2567 23:36:57 Message Server v.10.10
+28/9/2567 23:36:59 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:03 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:07 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:11 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:15 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:15 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:37:15 Warning: Server stopped.
+28/9/2567 23:37:30 Message Server v.10.10
+28/9/2567 23:37:32 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:36 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:40 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:44 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:48 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:37:48 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:37:48 Warning: Server stopped.
+28/9/2567 23:38:03 Message Server v.10.10
+28/9/2567 23:38:21 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:38:21 Warning: Server stopped.
+28/9/2567 23:38:36 Message Server v.10.10
+28/9/2567 23:38:38 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:38:42 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:38:46 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:38:50 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:38:54 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:38:54 Server connection failed: 
+Server.Common.Net.NetworkException: Login server connection failed.
+   at Server.Common.Net.ServerHandler`3..ctor(IPEndPoint remoteEP, String title, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 56
+   at Server.Interoperability.InteroperabilityClient..ctor(IPEndPoint remoteEP, String code) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 13
+   at Server.Interoperability.InteroperabilityClient.Main() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\MessageServer\Interoperability\InteroperabilityClient.cs:line 33
+28/9/2567 23:38:54 Warning: Server stopped.
+28/9/2567 23:39:09 Message Server v.10.10
+28/9/2567 23:39:11 Warning: Could not connect to login server at 127.0.0.1:14000.
+28/9/2567 23:40:38 Message Server v.10.10
+28/9/2567 23:44:26 Message Server v.10.10
+29/9/2567 0:06:15 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+29/9/2567 0:06:15 Warning: Server stopped.
+29/9/2567 0:11:55 Message Server v.10.10
+29/9/2567 0:47:00 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+29/9/2567 0:47:00 Warning: Server stopped.
+8/10/2567 15:45:02 Message Server v.10.10
+8/10/2567 15:52:17 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+8/10/2567 15:52:17 Warning: Server stopped.
+8/10/2567 15:52:48 Message Server v.10.10
+8/10/2567 17:20:02 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+8/10/2567 17:20:02 Warning: Server stopped.
+8/10/2567 19:41:20 Message Server v.10.10
+8/10/2567 20:21:59 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+8/10/2567 20:21:59 Warning: Server stopped.
+8/10/2567 23:22:54 Message Server v.10.10
+8/10/2567 23:59:45 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+8/10/2567 23:59:45 Warning: Server stopped.
+10/10/2567 20:31:19 Message Server v.10.10
+10/10/2567 20:48:33 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+10/10/2567 20:48:33 Warning: Server stopped.
+10/10/2567 20:56:14 Message Server v.10.10

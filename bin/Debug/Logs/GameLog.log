@@ -1,0 +1,856 @@
+26/9/2567 0:23:52 Game Server v.10.10
+26/9/2567 12:27:49 Game Server v.10.10
+26/9/2567 12:33:02 Game Server v.10.10
+26/9/2567 12:33:26 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 149
+26/9/2567 12:33:26 Warning: Server stopped.
+26/9/2567 12:33:41 Game Server v.10.10
+26/9/2567 12:33:41 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in E:\All FlyFF\Ghost-1.1\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 123
+26/9/2567 12:33:41 Warning: Server stopped.
+26/9/2567 12:33:56 Game Server v.10.10
+26/9/2567 12:33:56 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in E:\All FlyFF\Ghost-1.1\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 123
+26/9/2567 12:33:56 Warning: Server stopped.
+26/9/2567 12:34:03 Game Server v.10.10
+26/9/2567 12:34:21 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 149
+26/9/2567 12:34:21 Warning: Server stopped.
+26/9/2567 12:34:29 Game Server v.10.10
+26/9/2567 12:34:47 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 149
+26/9/2567 12:34:47 Warning: Server stopped.
+26/9/2567 12:34:54 Game Server v.10.10
+26/9/2567 12:35:03 System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at Server.GameServer.Main(String[] args) in E:\All FlyFF\Ghost-1.1\Server\GameServer\GameServer.cs:line 149
+26/9/2567 12:35:03 Warning: Server stopped.
+26/9/2567 12:35:07 Game Server v.10.10
+26/9/2567 12:38:55 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.1\Server\Common\Net\ServerHandler.cs:line 92
+26/9/2567 12:38:55 Warning: Server stopped.
+26/9/2567 12:39:34 Game Server v.10.10
+26/9/2567 12:48:06 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.1\Server\Common\Net\ServerHandler.cs:line 92
+26/9/2567 12:48:06 Warning: Server stopped.
+26/9/2567 12:49:17 Game Server v.10.10
+27/9/2567 16:28:06 Game Server v.10.10
+27/9/2567 16:30:06 Game Server v.10.10
+27/9/2567 16:30:41 Unhandled Packet Exception from 127.0.0.1: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'accountid' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(MySqlConnection connection, MySqlTransaction transaction, String commandText, MySqlParameter[] commandParameters, Boolean ExternalConn)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(String connectionString, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(String connectionString, String commandText)
+   at Server.Common.Data.Datums.PopulateInternal(String fields, String constraints) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Datum.cs:line 26
+   at Server.Common.Data.Datums.Populate(String constraints, Object[] args) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Datum.cs:line 71
+   at Server.Ghost.CharacterStorages.Load() in E:\All FlyFF\Ghost-1.2\Server\GameServer\Ghost\Characters\CharacterStorages.cs:line 27
+   at Server.Ghost.Characters.Character.Load(Boolean IsFullLoad) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Ghost\Characters\Character.cs:line 171
+   at Server.Handler.GameHandler.Game_Log_Req(InPacket lea, Client gc) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\Handler\GameHandler.cs:line 49
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\GameServerHandler.cs:line 25
+   at Server.Net.Client.Dispatch(InPacket inPacket) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\Client.cs:line 128
+27/9/2567 16:31:18 Game Server v.10.10
+27/9/2567 16:32:05 Unhandled Packet Exception from 127.0.0.1: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'accountid' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(MySqlConnection connection, MySqlTransaction transaction, String commandText, MySqlParameter[] commandParameters, Boolean ExternalConn)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(String connectionString, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteReader(String connectionString, String commandText)
+   at Server.Common.Data.Datums.PopulateInternal(String fields, String constraints) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Datum.cs:line 26
+   at Server.Common.Data.Datums.Populate(String constraints, Object[] args) in E:\All FlyFF\Ghost-1.2\Server\Common\Data\Datum.cs:line 71
+   at Server.Ghost.CharacterStorages.Load() in E:\All FlyFF\Ghost-1.2\Server\GameServer\Ghost\Characters\CharacterStorages.cs:line 27
+   at Server.Ghost.Characters.Character.Load(Boolean IsFullLoad) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Ghost\Characters\Character.cs:line 171
+   at Server.Handler.GameHandler.Game_Log_Req(InPacket lea, Client gc) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\Handler\GameHandler.cs:line 49
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\GameServerHandler.cs:line 25
+   at Server.Net.Client.Dispatch(InPacket inPacket) in E:\All FlyFF\Ghost-1.2\Server\GameServer\Net\Client.cs:line 128
+27/9/2567 16:45:05 Game Server v.10.10
+27/9/2567 16:45:50 Unhandled Packet Exception from 127.0.0.1: 
+System.MissingFieldException: Field not found: 'Server.Common.Constants.ServerConstants.PASSWORD_DECODE'.
+   at Server.Handler.GameHandler.Game_Log_Req(InPacket lea, Client gc)
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc)
+   at Server.Net.Client.Dispatch(InPacket inPacket)
+27/9/2567 16:45:53 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in E:\All FlyFF\Ghost-1.2\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:45:53 Warning: Server stopped.
+27/9/2567 16:46:08 Game Server v.10.10
+27/9/2567 16:46:08 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize()
+   at Server.GameServer.Main(String[] args)
+27/9/2567 16:46:08 Warning: Server stopped.
+27/9/2567 16:47:27 Game Server v.10.10
+27/9/2567 16:49:23 Game Server v.10.10
+27/9/2567 16:50:01 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\source\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:50:01 Unregister exception from 127.0.0.1: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\source\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\source\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Ghost.Accounts.Account.Save() in C:\source\Server\GameServer\Ghost\Accounts\Account.cs:line 78
+   at Server.Net.Client.Unregister() in C:\source\Server\GameServer\Net\Client.cs:line 95
+27/9/2567 16:50:01 Warning: Server stopped.
+27/9/2567 16:50:16 Game Server v.10.10
+27/9/2567 16:50:16 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\source\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\source\Server\GameServer\GameServer.cs:line 123
+27/9/2567 16:50:16 Warning: Server stopped.
+27/9/2567 16:50:31 Game Server v.10.10
+27/9/2567 16:50:31 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\source\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\source\Server\GameServer\GameServer.cs:line 123
+27/9/2567 16:50:31 Warning: Server stopped.
+27/9/2567 16:50:46 Game Server v.10.10
+27/9/2567 16:50:46 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\source\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\source\Server\GameServer\GameServer.cs:line 123
+27/9/2567 16:50:46 Warning: Server stopped.
+27/9/2567 16:51:01 Game Server v.10.10
+27/9/2567 16:51:01 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\source\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\source\Server\GameServer\GameServer.cs:line 123
+27/9/2567 16:51:01 Warning: Server stopped.
+27/9/2567 16:51:16 Game Server v.10.10
+27/9/2567 16:51:17 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\source\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\source\Server\GameServer\GameServer.cs:line 123
+27/9/2567 16:51:17 Warning: Server stopped.
+27/9/2567 16:52:01 Game Server v.10.10
+27/9/2567 16:52:36 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\source\Server\Common\Net\ServerHandler.cs:line 92
+27/9/2567 16:52:36 Warning: Server stopped.
+27/9/2567 16:58:27 Game Server v.10.10
+27/9/2567 17:06:56 Game Server v.10.10
+27/9/2567 17:10:09 Game Server v.10.10
+28/9/2567 22:36:52 Game Server v.10.10
+28/9/2567 23:13:26 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:25:05 Unhandled Packet Exception from 127.0.0.1: 
+System.ArgumentException: Quantity too high.
+   at Server.Ghost.Item.set_Quantity(Int16 value) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 79
+   at Server.Ghost.Item..ctor(Int32 itemID, Byte type, Byte slot, Int16 quantity) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 111
+   at Server.Handler.NpcShopHandler.Buy_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\NpcShopHandler.cs:line 94
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 32
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:30:08 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:30:09 Unregister exception from 127.0.0.1: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at Server.Ghost.Accounts.Account.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Accounts\Account.cs:line 78
+   at Server.Net.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 95
+28/9/2567 23:30:09 Warning: Server stopped.
+28/9/2567 23:30:24 Game Server v.10.10
+28/9/2567 23:30:24 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:30:24 Warning: Server stopped.
+28/9/2567 23:30:39 Game Server v.10.10
+28/9/2567 23:30:39 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:30:39 Warning: Server stopped.
+28/9/2567 23:30:54 Game Server v.10.10
+28/9/2567 23:30:54 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:30:54 Warning: Server stopped.
+28/9/2567 23:31:09 Game Server v.10.10
+28/9/2567 23:31:09 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:31:09 Warning: Server stopped.
+28/9/2567 23:31:24 Game Server v.10.10
+28/9/2567 23:31:24 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:31:24 Warning: Server stopped.
+28/9/2567 23:31:39 Game Server v.10.10
+28/9/2567 23:31:39 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:31:39 Warning: Server stopped.
+28/9/2567 23:34:23 Game Server v.10.10
+28/9/2567 23:35:02 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+28/9/2567 23:35:02 Warning: Server stopped.
+28/9/2567 23:35:17 Game Server v.10.10
+28/9/2567 23:35:17 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:35:17 Warning: Server stopped.
+28/9/2567 23:35:32 Game Server v.10.10
+28/9/2567 23:35:32 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:35:32 Warning: Server stopped.
+28/9/2567 23:35:47 Game Server v.10.10
+28/9/2567 23:35:47 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:35:47 Warning: Server stopped.
+28/9/2567 23:36:02 Game Server v.10.10
+28/9/2567 23:36:02 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:36:03 Warning: Server stopped.
+28/9/2567 23:36:18 Game Server v.10.10
+28/9/2567 23:36:18 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:36:18 Warning: Server stopped.
+28/9/2567 23:36:33 Game Server v.10.10
+28/9/2567 23:36:33 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:36:33 Warning: Server stopped.
+28/9/2567 23:36:48 Game Server v.10.10
+28/9/2567 23:36:48 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:36:48 Warning: Server stopped.
+28/9/2567 23:37:03 Game Server v.10.10
+28/9/2567 23:37:03 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:37:03 Warning: Server stopped.
+28/9/2567 23:37:18 Game Server v.10.10
+28/9/2567 23:37:18 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:37:18 Warning: Server stopped.
+28/9/2567 23:37:33 Game Server v.10.10
+28/9/2567 23:37:33 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:37:33 Warning: Server stopped.
+28/9/2567 23:37:48 Game Server v.10.10
+28/9/2567 23:37:48 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:37:48 Warning: Server stopped.
+28/9/2567 23:38:03 Game Server v.10.10
+28/9/2567 23:38:03 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:38:03 Warning: Server stopped.
+28/9/2567 23:38:04 Game Server v.10.10
+28/9/2567 23:38:07 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:38:07 Warning: Server stopped.
+28/9/2567 23:38:18 Game Server v.10.10
+28/9/2567 23:38:18 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:38:18 Warning: Server stopped.
+28/9/2567 23:38:33 Game Server v.10.10
+28/9/2567 23:38:33 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:38:33 Warning: Server stopped.
+28/9/2567 23:38:48 Game Server v.10.10
+28/9/2567 23:38:48 System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 108
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:38:48 Warning: Server stopped.
+28/9/2567 23:39:03 Game Server v.10.10
+28/9/2567 23:39:03 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:39:03 Warning: Server stopped.
+28/9/2567 23:39:18 Game Server v.10.10
+28/9/2567 23:39:18 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:39:18 Warning: Server stopped.
+28/9/2567 23:39:33 Game Server v.10.10
+28/9/2567 23:39:33 System.IO.IOException: The process cannot access the file 'C:\Users\innosoft\Desktop\Test\bin\Debug\table\item.itm' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at Server.Ghost.Provider.ItemFactory.Initialize() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Provider\ItemFactory.cs:line 74
+   at Server.GameServer.Main(String[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\GameServer.cs:line 123
+28/9/2567 23:39:33 Warning: Server stopped.
+28/9/2567 23:40:32 Game Server v.10.10
+28/9/2567 23:41:14 Unhandled Packet Exception from 127.0.0.1: 
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Server.Common.Data.Datum' does not contain a definition for 'icon'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Server.Ghost.Storage..ctor(Object datum) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Storage.cs:line 74
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Server.Ghost.CharacterStorages.Load() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterStorages.cs:line 29
+   at Server.Ghost.Characters.Character.Load(Boolean IsFullLoad) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 171
+   at Server.Handler.GameHandler.Game_Log_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 49
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 25
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:44:21 Game Server v.10.10
+28/9/2567 23:54:25 Unhandled Packet Exception from 127.0.0.1: 
+System.OverflowException: Value was either too large or too small for an Int16.
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 152
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:55:49 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:58:18 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Handler.CashShopHandler.BuyCommodity_Req(InPacket lea, Client c) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\CashShopHandler.cs:line 52
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 219
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:58:20 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Handler.CashShopHandler.BuyCommodity_Req(InPacket lea, Client c) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\CashShopHandler.cs:line 52
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 219
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+28/9/2567 23:58:26 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Handler.CashShopHandler.BuyCommodity_Req(InPacket lea, Client c) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\CashShopHandler.cs:line 52
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 219
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:00:11 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Handler.CashShopHandler.CommodityToInventory_Req(InPacket lea, Client c) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\CashShopHandler.cs:line 116
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 225
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:00:14 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Handler.CashShopHandler.CommodityToInventory_Req(InPacket lea, Client c) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\CashShopHandler.cs:line 116
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 225
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:06:15 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+29/9/2567 0:06:15 Warning: Server stopped.
+29/9/2567 0:11:46 Game Server v.10.10
+29/9/2567 0:12:59 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:15:09 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Ghost.Characters.Character.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 241
+   at Server.Handler.StorageHandler.MoveItemToStorage(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\StorageHandler.cs:line 27
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 109
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:15:11 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Ghost.Characters.Character.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 241
+   at Server.Handler.StorageHandler.MoveItemToStorage(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\StorageHandler.cs:line 27
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 109
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:15:14 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Handler.StorageHandler.MoveItemToStorage(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\StorageHandler.cs:line 22
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 109
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:15:19 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Ghost.Characters.Character.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 241
+   at Server.Handler.StorageHandler.SaveStorageMoney(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\StorageHandler.cs:line 75
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 115
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:23:38 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Handler.InventoryHandler.UseSpend_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\InventoryHandler.cs:line 160
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 58
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:23:42 Unhandled Packet Exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Handler.InventoryHandler.UseSpend_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\InventoryHandler.cs:line 160
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 58
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:28:00 Unhandled Packet Exception from 127.0.0.1: 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 125
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:32:18 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:32:57 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:33:25 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:33:37 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:33:43 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:33:52 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:00 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:06 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:15 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:39 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:48 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:34:56 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:35:04 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:35:15 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:35:41 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:36:01 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:36:11 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:36:22 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:36:35 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:36:48 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:37:04 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:37:14 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:37:23 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:37:51 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:38:00 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:38:09 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:38:23 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:38:44 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:39:08 Unhandled Packet Exception from 127.0.0.1: 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 125
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:39:14 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:39:37 Unhandled Packet Exception from 127.0.0.1: 
+Server.Ghost.Characters.InventoryFullException: Inventory full
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 261
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+29/9/2567 0:40:15 Unregister exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Ghost.Characters.Character.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 241
+   at Server.Net.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 96
+29/9/2567 0:47:00 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+29/9/2567 0:47:00 Warning: Server stopped.
+8/10/2567 15:44:51 Game Server v.10.10
+8/10/2567 15:52:17 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+8/10/2567 15:52:17 Warning: Server stopped.
+8/10/2567 15:52:38 Game Server v.10.10
+8/10/2567 16:23:57 Unhandled Packet Exception from 127.0.0.1: 
+System.ArgumentException: Quantity too high.
+   at Server.Ghost.Item.set_Quantity(Int16 value) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 79
+   at Server.Ghost.Item..ctor(Int32 itemID, Byte type, Byte slot, Int16 quantity) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 111
+   at Server.Handler.NpcShopHandler.Buy_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\NpcShopHandler.cs:line 105
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 32
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 16:23:58 Unhandled Packet Exception from 127.0.0.1: 
+System.ArgumentException: Quantity too high.
+   at Server.Ghost.Item.set_Quantity(Int16 value) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 79
+   at Server.Ghost.Item..ctor(Int32 itemID, Byte type, Byte slot, Int16 quantity) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 111
+   at Server.Handler.NpcShopHandler.Buy_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\NpcShopHandler.cs:line 105
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 32
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 16:26:16 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 19:40:49 Game Server v.10.10
+8/10/2567 19:41:10 Game Server v.10.10
+8/10/2567 19:44:27 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 19:53:07 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 19:54:55 Unhandled Packet Exception from 127.0.0.1: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Server.Ghost.Characters.CharacterItems.GetNextFreeSlot(ItemType type) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 253
+   at Server.Handler.GameHandler.Command_Req(InPacket lea, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Handler\GameHandler.cs:line 131
+   at Server.Net.GameServerHandler.ServerHandlerReceive(InPacket ip, Client gc) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\GameServerHandler.cs:line 22
+   at Server.Net.Client.Dispatch(InPacket inPacket) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 128
+8/10/2567 20:12:40 Unregister exception from 127.0.0.1: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Ghost.Item.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Item.cs:line 278
+   at Server.Ghost.Characters.CharacterItems.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\CharacterItems.cs:line 45
+   at Server.Ghost.Characters.Character.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Characters\Character.cs:line 241
+   at Server.Net.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 96
+8/10/2567 23:21:41 Game Server v.10.10
+8/10/2567 23:22:25 Game Server v.10.10
+8/10/2567 23:22:33 Warning: Could not connect to login server at 127.0.0.1:14000.
+8/10/2567 23:22:37 Warning: Could not connect to login server at 127.0.0.1:14000.
+8/10/2567 23:22:41 Warning: Could not connect to login server at 127.0.0.1:14000.
+8/10/2567 23:22:45 Warning: Could not connect to login server at 127.0.0.1:14000.
+10/10/2567 20:31:06 Game Server v.10.10
+10/10/2567 20:48:33 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Server.Common.Net.ServerHandler`3.OnReceive(IAsyncResult ar) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Net\ServerHandler.cs:line 92
+10/10/2567 20:48:33 Warning: Server stopped.
+10/10/2567 20:56:04 Game Server v.10.10
+10/10/2567 21:13:37 Unregister exception from 127.0.0.1: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect datetime value: '10318-01-01 00:00:00' for column 'creation' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   at MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   at Server.Common.Data.Database.Execute(String nonQuery, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Database.cs:line 94
+   at Server.Common.Data.Datum.Update(String constraints, Object[] args) in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\Common\Data\Datum.cs:line 230
+   at CallSite.Target(Closure , CallSite , Object , String , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at Server.Ghost.Accounts.Account.Save() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Ghost\Accounts\Account.cs:line 78
+   at Server.Net.Client.Unregister() in C:\New(Ghost VN)\Ghost-master\Ghost-master\Server\GameServer\Net\Client.cs:line 95
